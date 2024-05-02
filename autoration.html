@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Попова Ю.Д.</title>
+    <link rel="stylesheet" href="styles_form.css">
+</head>
+<body>
+    <p>
+        <header>
+                <nav>
+                    <a href="index.html">На главную</a>
+                </nav>
+        </header>
+    </p>
+    <form id="loginForm" action="https://httpbin.org/post" method="post">
+    
+        <div class="field">
+            <h2>Авторизация</h2>
+            <label>Имя пользователя:</label>
+            <div class="input"><input type="text" name="" value="" id="login" /></div>
+        </div>
+    
+        <div class="field">
+            <a href="#" id="forgot">Забыли пароль?</a>
+            <label>Пароль:</label>
+            <div class="input"><input type="password" name="" value="" id="pass" /></div>
+        </div>
+    
+        <div class="submit">
+            <button type="submit">Войти</button>
+            <label id="remember"><input name="" type="checkbox" value="" /> Запомнить меня</label>
+        </div>
+    
+    </form>
+    
+    </body>
+
+</html>

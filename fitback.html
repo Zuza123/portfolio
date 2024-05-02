@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Попова Ю.Д.</title>
+    <link rel="stylesheet" href="styles_fit.css">
+</head>
+<body>
+    <p> 
+        <header>
+                <nav>
+                    <a href="index.html">На главную</a>
+                </nav>
+        </header>
+    </p>
+    <form id="loginForm" action="https://httpbin.org/post" method="post">
+    
+        <div class="field">
+            <h2>Свяжитесь с нами</h2>
+            <label>ФИО:</label>
+            <div class="input"><input type="text" name="ФИО" value="" id="login" /></div>
+        </div>
+        <div class="field">
+            <label>Email:</label>
+            <div class="input"><input type="email" name="почта" value="" id="login" /></div>
+        </div>
+
+        <p>Окуда вы о нас узнали?</p>
+  <div>
+    <input type="radio" id="contactChoice1" name="infor" value="text" />
+    <label for="contactChoice1">Реклама</label>
+
+    <input type="radio" id="contactChoice2" name="infor" value="text" />
+    <label for="contactChoice2">От друзей</label>
+
+    <input type="radio" id="contactChoice3" name="infor" value="text" />
+    <label for="contactChoice3">От университета</label>
+  </div>
+  <p>Тип обращения:</p>
+  <select id="selectvalue">
+    <option>Жалоба</option>
+    <option>Благодарность</option>
+    <option>Правки</option>
+    <option>Сотрудничество</option>
+    <option>Реклама</option>
+    </select>
+    <div>
+        <textarea name="comment" placeholder="Текст сообщения:"></textarea>
+        </label>
+    </div> 
+    <div>
+        <p>Вложение</p>
+        <input type="file" id="actual-btn"/>
+    <label for="actual-btn"></label>
+    </div>
+    <div class="agree">
+        <label id="agree"><input name="agree" type="checkbox" value="1" /> Даю согласие на обработку персональных данных</label>
+    </div>
+        <div class="submit">
+            <button type="submit">Отправить</button>
+        </div>
+    
+    </form>
+    
+    </body>
+
+</html>
